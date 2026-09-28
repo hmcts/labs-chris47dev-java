@@ -1,0 +1,13 @@
+version: '2.1'
+
+services:
+  labs-chris47dev-java:
+    build:
+      context: .
+      args:
+        - http_proxy
+        - https_proxy
+        - no_proxy
+    image: hmctssbox.azurecr.io.azurecr.io/labs/labs-chris47dev-java
+    ports:
+      - $SERVER_PORT:$SERVER_PORT
