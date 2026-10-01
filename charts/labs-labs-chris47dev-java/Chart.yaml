@@ -3,10 +3,10 @@ appVersion: "1.0"
 description: A Helm chart for labs-labs-chris47dev-java App
 name: labs-labs-chris47dev-java
 home: https://github.com/hmcts/labs-labs-chris47dev-java
-version: 0.0.14
+version: 0.0.15
 maintainers:
   - name: HMCTS labs team
 dependencies:
   - name: java
-    version: 5.2.1
+    version: 6.1.1
     repository: oci://hmctssbox.azurecr.io.azurecr.io/helm
